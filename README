@@ -5,3 +5,5 @@ It contains all patches required to build pnp within OMD-Labs (https://github.co
 Changes:
 	- add support for PHP 7 / 8
 	- add support for rrdtool 1.8.0
+	- replaced config.guess and config.sub to latest level
+	- removed magic_quotes check and MBSTRING global value (2)
